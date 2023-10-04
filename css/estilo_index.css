@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #1D1D1D;
+	color: #000;
+	font: normal 0.8rem Arial, Helvetica, sans-serif;
+}
+
+p{
+	font-size: 1em;
+	Line-height: 1.7em;
+	padding: 0 0 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #098EFF;
+	font-size: 1.7em;
+	Letter-spacing:-1px;
+	margin: 0 0 10px 0;
+	text-shadow: 0px -1px 0px #fff;
+}
+
+h2{
+	font-size: 1.6em;
+}
+
+h3{
+	color: #FFF;
+	font-bold: 1.3em Arial, Helvetica, sans-seriff;
+	text-shadow: 1px 1px #000;
+}
+
+h4, h5, h6{
+	color: #FFF;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0 0 0px 0;
+}
+
+h5, h6{
+	font-size: 0.95em;
+	color: #888;
+	padding-bottom: 15px;
+}
+
+main, header, #barra_menu, section, footer{
+	margin: 0 auto;
+}
+
+header{
+	height: 80px;
+	width: 940px;
+	padding: 15px 0 0 0;
+	position: relative;
+}
+
+section#contenido{
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	width: 920px;
+}
+
+section#contenido_gris{
+	background: #000;
+	background: -moz-linear-gradient(#676767, #1D1D1D);
+	background: -o-linear-gradient(#676767, #1D1D1D);
+	background: -webkit-linear-gradient(#676767, #1D1D1D);
+	box-shadow: rgba(0, 0, 0, 0.5); 0px 0px 5px
+	height: 160px;
+	width: 940px;
+	text-align: center;
+}
+
+footer{
+	background: -moz-linear-gradient(#FFF, #BBB);
+	background: -o-linear-gradient(#FFF, #BBB);
+	background: -webkit-linear-gradient(#FFF, #BBB);
+	height: 60px;
+	margin-top: 30px;
+}
+
+a, a:hover{
+	color: #1D1D1D;
+	text-decoration: none;
+}
+
+a:hover{ text-decoration: underline;
+}
+
+ul{
+	font-style: normal;
+	font-size: 1em;
+	Line-height: 1.7em;
+	margin: 2px 0 22px 30px;
+}
+
+#menu_container{ height: 50px;}
+
+#barra_menu{
+	width: 560px;
+	height: 50px;
+	float: right;
+	margin: 0 auto;
+}
+
+ul#menu{margin: 0;}
+
+ul#menu li{
+	padding: 0 0 0 0px;
+	list-style: none;
+	margin: 2px 0 0 0;
+	display: inline; 
+	background: transparent;
+}
+
+ul#menu li a{
+	float: left;
+	font: bold 120% Arial, Helvetica, sans-serif;
+	height: 24px;
+	margin: 10px 0 0 20px;
+	text-shadow: 0px -1px 0px #000;
+	padding: 6px 10px 0 10px;
+	background: transparent;
+	border-radius: 7px 7px 7px 7px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul#menu li.current a{
+	color: #098EFF;
+	text-shadow: none;
+}
+
+ul#menu li.hover a{
+	color: #098EFF;
+	text-shadow: none;
+}
+
+#universidad
+{
+	width: 300px;
+	float: left;
+	height: 50px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+#universidad h1
+{
+	font: normal 2.5em Arial, Helvetica, sans-serif;
+	letter-spacing: -3px;
+	text-shadow: 1px 1px yellow;
+	color: #FFF;
+}
+
+#img_grande
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.facultad{
+	background-color: #098EFF;
+	color: #FFF;
+	float: left;
+	margin-right: 26px;
+	padding: 20px;
+	text-align: justify;
+	width: 240px;
+}
+
+#content
+{
+	margin: 20px;
+	margin-top: 220px;
+	padding: 20px;
+	text-align: justify;
+	width: 800px;
+}
+
+.section#contenido_gris{
+	background: #000;
+	background: -moz-linear-gradient(#676767, #1D1D1D);
+	background: -o-linear-gradient(#676767, #1D1D1D);
+	background: -webkit-linear-gradient(#676767, #1D1D1D);
+	box-shadow: rgba(0, 0, 0, 0.5); 0px 0px 5px
+	height: 160px;
+	width: 940px;
+	text-align: center;
+}
+
+#contenido_gris p{
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+}
+
+#contenido_gris h4{text-shadow: 1px 1px #000;}
+
+.caja{
+	width: 270px;
+	padding: 5px;
+	text-align: center;
+	margin: 20px 0 10px 10px;
+	float: left;
+	text-align: justify;
+}
+
+.mas{
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+	height: 15px;
+	width: 80px;
+	padding: 5px 2px 7px 7px;
+	background-color: #FFF;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.mas a{
+	color: #000;
+	text-shadow: none;
+}
+
+.caja .mas{
+	margin-left: 20 px;
+	padding: 5px 2px 7px 10px;
+	background-color: #098EFF;
+	background: -moz-linear-gradient(#43A9FF, #0183F0);
+	background: -o-linear-gradient(#43A9FF, #0183F0);
+	background: -webkit-linear-gradient(#43A9FF, #0183F0);
+}
+
+.caja .mas a{
+	color: #FFF;
+	text-shadow: 1px 1px #004C8C;
+}
+
+#footer{ 
+	color: #1D1D1D;
+	width: 940px;
+	height: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+	text-align: center;
+	text-shadow: 1px 1px #FFF;
+}
