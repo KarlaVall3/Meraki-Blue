@@ -5,28 +5,36 @@
 
 body{
 	background-color: #FFFFFF;
-	font: normal 0.8rem Arial, Helvetica, sans-serif;
 }
-
-#menu{
-	color: #F9F3B7;
-	float: right;
-} 
 
 #barra_menu{
 	background: #CEBA8A;
-	height: 50px;
-	margin: 0 auto;
+	height: 90px;
+	overflow: hidden;
 }
 
-#img_grande
-{
+.menu{
+	font-family:Mermaid;
+	font-size: 1.4em;
+	color: #F9F3B7;
+	float: right;
+	margin-top: -60px;
+} 
+
+a, a:hover{
+	color: #F9F3B7;
+}
+
+#img_grande{
 	padding-left: 920px;
+	margin-top: -83px;
+	overflow: hidden;
+	display: block;
 }
 
 .banner{
 	color: #0886C4;
-	height: 481px;;
+	height: 481px;
 	background-color: #BFCBE5;
 	border-radius: 30px;
 	margin-bottom: 30px;
@@ -34,48 +42,45 @@ body{
 	width: 920px;
 }
 
-ul.menu li a{
-	float: right;
-	height: 24px;
-	margin: 10px 0 0 20px;
-	padding: 6px 10px 0 10px;
-	background: transparent;
-	border-radius: 7px 7px 7px 7px;
-	text-align: center;
-	color: #FFFFFF;
-}
-
-ul#menu li.hover a{
-	color: #098EFF;
-	text-shadow: none;
-}
-
 p{
+	font-family:Pinkerston;
+	color: #black;
 	font-size: 1em;
-	Line-height: 1.7em;
-	padding: 0 0 10px 0;
+}
+
+p1{
+	font-family:Pinkerston;
+	color: #0886C4;
+	font-size: 1em;
 }
 
 h1{
 	font-family:Mermaid;
-	font-size: 1.7em;
+	font-size: 2em;
 	color: #F9F3B7;
 	margin: 26px;
 }
 
 h2{
 	font-family:Mermaid;
-	font-size: 1.6em;
+	font-size: 3em;
 }
 
 h3{
-	color: #FFF;
-	font-bold: 1.3em Arial, Helvetica, sans-seriff;
+	font-family:Molex Shoora;
+	color: #AA853B;
+	font-size: 2em;
+	text-align: center;
 }
 
 h4{
-	color: #FFF;
-	font-size: 1.5em;
-	line-height: 1.5em;
-	padding: 0 0 0px 0;
+	font-family:Pinkerston;
+	color: #AA853B;
+	font-size: 1em;
+}
+
+footer{
+	text-align: center;
+	font-family:Pinkerston;
+	color: #AA853B;
 }
