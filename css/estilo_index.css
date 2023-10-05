@@ -20,7 +20,10 @@ body{
 	color: #F9F3B7;
 	float: right;
 	margin-top: -60px;
+	padding-left: -60px;
 } 
+
+/*la barra me falta configurarla, todo lo que es barra menu, menu, no le hagas caso*/
 
 a, a:hover{
 	color: #F9F3B7;
@@ -41,6 +44,10 @@ a, a:hover{
 	margin-bottom: 30px;
 	padding-left: 20px;
 	width: 920px;
+}
+
+#contenido_coleccion{
+
 }
 
 p{
@@ -79,6 +86,8 @@ h4{
 	color: #AA853B;
 	font-size: 1em;
 }
+
+/*Al footer le pueden agregar más cosas, yo solo lo puse en medio y como lo de marca registrada pero agreguenle lo que ustedes consideren*/
 
 footer{
 	text-align: center;
