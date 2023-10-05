@@ -5,6 +5,7 @@
 
 body{
 	background-color: #FFFFFF;
+	overflow-x: hidden;
 }
 
 #barra_menu{
