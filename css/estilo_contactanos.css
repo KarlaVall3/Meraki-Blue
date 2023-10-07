@@ -70,6 +70,48 @@ div>ul>li>ul>li{
 
 /*FIN DE BARRA DE MENU*/
 
+h1{
+	font-family:Mermaid;
+	font-size: 2em;
+	color: #F9F3B7;
+	margin: 26px;
+}
+
+h2{
+	text-align: center;
+	font-family:Mermaid;
+	color: #AA853B;
+	font-size: 3.5em;
+	padding-top: 50px;
+}
+
+h3{
+	text-align: center;
+	font-family:Mermaid;
+	color: #D6A941;
+	font-size: 2em;
+	padding-bottom: 50px;
+}
+
+h4{
+	text-align: left;
+	font-family:Mermaid;
+	color: #D6A941;
+	font-size: 2em;
+}
+
+p{
+	font-family:Pinkerston;
+	color: #AA853B;
+	font-size: 1em;
+}
+
+#recordatorio{
+	color: #AA853B;
+	font-size: 1em;
+	padding-left: 50px;
+}
+
 /*inicio footer*/
 
 footer{
