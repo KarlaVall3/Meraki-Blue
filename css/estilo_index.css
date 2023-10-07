@@ -8,10 +8,12 @@ body{
 	overflow-x: hidden;
 }
 
-#barra_menu{
-	background: #CEBA8A;
-	height: 90px;
-	overflow: hidden;
+header {
+  background: #CEBA8A;
+  height: 90px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
 }
 
 .menu{
@@ -19,8 +21,54 @@ body{
 	font-size: 1.4em;
 	color: #0886C4;
 	float: right;
-	margin-top: -60px;
+	margin-top: -80px;
 } 
+
+/*INICIO DE BARRA DE MENU*/
+
+div #barra_menu{
+	float: left;
+} 
+
+div a:hover{
+	background: #D6A941;
+}
+
+/*Primer nivel menu*/
+
+div ul{
+  list-style: none;
+  overflow: hidden; 
+}
+
+div>ul>li{
+	float: left;
+}
+
+div ul li a {
+  display: block; 
+  padding: 20px;
+  color: #F9F3B7;
+  text-decoration: none;
+}
+
+div>ul>li:hover ul{
+	display: block;
+	background: #D6A941;
+}
+
+/* Segundo nivel*/
+
+div>ul>li>ul{
+	position: absolute;
+	display: none;
+}
+
+div>ul>li>ul>li{
+	background-color: #D6A941;
+}
+
+/*FIN DE BARRA DE MENU*/
 
 #img_grande
 {
@@ -32,8 +80,6 @@ body{
 	margin-top: -60px;
 	padding-left: -60px;
 } 
-
-/*la barra me falta configurarla, todo lo que es barra menu, menu, no le hagas caso*/
 
 a, a:hover{
 	color: #F9F3B7;
