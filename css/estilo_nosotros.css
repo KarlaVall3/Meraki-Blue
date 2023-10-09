@@ -88,25 +88,31 @@ h2{
 h3{ 
 	font-family:Mermaid;
 	font-size: 2.5em;
-	color: #0886C4;
-	margin-top: -2px;
-	margin-bottom: 0.1px;
+	color: #FFF;
 	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
 	
 }
 
-p1{ 
+#texto_primercuadro{ 
+	width: 70%;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 0px;
 	font-family:Pinkerston;
 	color: #0886C4;
 	font-size: 1.3em;
-	text-align: left;
-
+	text-align: justify;
 }
 
+table, #pt2 table{
+	background-color: #BFCBE5;
+  border-radius: 30px 30px 30px 30px;
+}
 
 table {
-	background-color: #BFCBE5;
-  border-radius: 15px 15px 5px 5px;
 	margin-left: 70px;
 	margin-right: -45px;
 	text-align: left;
@@ -114,7 +120,7 @@ table {
 	padding: 3px;
 	padding-left: 1px;
 	position: unset;
-	
+	width: 90%;
 }
 
 td{
@@ -123,16 +129,25 @@ td{
 	padding-left: 4px;
 	border-radius: 30px;
 	background-color: #BFCBE5;
+	height: 15px;
 }
 
-#collares {
+tr{
+	position: static;
+	padding: 1px;
+	padding-left: 4px;
+	border-radius: 30px;
+	background-color: #BFCBE5;
+	height: 20px;
+}
+
+#collares{
 	padding-left: 981px;
 	margin-top: -221px;
 	overflow: hidden;
 	display: inline-table;
 	margin-bottom: -456px;
 	position: unset;
-
 }
 
 #collares img{
@@ -140,29 +155,26 @@ td{
 	height: 240px;
 	border-radius: 30px;
 	margin-left: 199px;
-
-
 }
 
 #pt2 table {
-	background-color: #BFCBE5;
-    border-radius: 15px 15px 5px 5px;
 	margin-left: 271px;
 	margin-right: -45px;
 	text-align: left;
 	margin-top: -0.1px;
-	padding: 26px;
-	padding-left: 56px;
-
-
+	padding-left: 25px;
+	width: 76%;
 }
 
-p2{
+#texto_segundocuadro{ 
+	width: 80%;
+	padding: 10px;
+	padding-left: 60px;
+	padding-top: 0px;
 	font-family:Pinkerston;
 	color: #0886C4;
 	font-size: 1.3em;
-	text-align: left;
-
+	text-align: justify;
 }
 
 #sol {
@@ -187,6 +199,6 @@ footer{
 	text-align: center;
 	font-family:Pinkerston;
 	color: #AA853B;
-	padding-top: 20 px;
-	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 50px;
 }
