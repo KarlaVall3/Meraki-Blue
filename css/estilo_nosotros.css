@@ -75,22 +75,15 @@ h1{
 	color: #F9F3B7;
 	margin: 26px;
 }
-/*inicio footer*/
-
-footer{
-	text-align: center;
-	font-family:Pinkerston;
-	color: #AA853B;
-}
 
 h2{
 	font-family:Mermaid;
-	font-size: 5.7em;
-	color: #966C23;
+	font-size: 3.5em;
+	color: #AA853B;
 	text-align: center;
-	margin-top: 0px auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-
 
 h3{ 
 	font-family:Mermaid;
@@ -180,13 +173,20 @@ p2{
 	margin-bottom: -25px;
 	position:absolute;
 	margin-left: 87px;
-
-
-
 }
 
 #sol img{
 	width: 239px;
 	height: 240px;
 	border-radius: 30px;
+}
+
+/*inicio footer*/
+
+footer{
+	text-align: center;
+	font-family:Pinkerston;
+	color: #AA853B;
+	padding-top: 20 px;
+	padding-bottom: 20px;
 }

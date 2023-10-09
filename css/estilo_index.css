@@ -69,6 +69,7 @@ div>ul>li>ul>li{
 }
 
 /*FIN DE BARRA DE MENU*/
+
 h1{
 	font-family: Mermaid;
 	font-size: 2em;
@@ -77,35 +78,19 @@ h1{
 }
 /*inicio footer*/
 
-footer{
-	text-align: center;
-	font-family:Pinkerston;
-	color: #AA853B;
-	padding-top: 20 px;
-	padding-bottom: 20px;
-}
-
-
-h2{
-	font-family:Mermaid;
-	font-size: 3em;
-	color: #0886C4;
-	text-align: left;
-	margin-left: 12px;
-}
-
 #img_grande{
 	padding-left: 896px;
-	margin-top: -187px;
+	margin-top: -371px;
 	overflow: hidden;
 	display: block;
 	margin-bottom: -6px;
     position: unset;
 }
+
 #img_grande img{
 	width: 627px;
-	height: 428px;
-	border-radius: 50px 2px 2px 50px;
+	height: 480px;
+	border-radius: 260px 0px 0px 260px;
 	position: unset;
 }
 
@@ -113,11 +98,11 @@ table{
 	margin-top: 0px auto;
 	width: 45px;
 	background-color: ;
-    border-radius: 15px 50px 30px 5px;
 	position: unset;
 	background-color: #BFCBE5;
-	margin-left: 5px;
+	margin-left: 0px;
 }
+
 td{
 	text-align: left;
 	padding-left: 1px;	
@@ -126,13 +111,28 @@ td{
 	margin-bottom: -2px;
 }
 
-p1{
+#p_banner{
 	font-family:Pinkerston;
 	color: #0886C4;
-	font-size: 1.4em;
+	font-size: 1.8em;
 	text-align: left;
-	margin: 12px;
+	margin-left: 100px;
+	border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+}
 
+#descripcion_banner{
+	width: 55%;
+}
+
+h2{
+	font-family:Mermaid;
+	font-size: 4em;
+	color: #0886C4;
+	text-align: left;
+	margin-left: 100px;
 }
 
 h3{
@@ -148,6 +148,15 @@ h4{
 	font-family:Pinkerston;
 	color: #AA853B;
 	font-size: 1em;
+}
+
+h5{
+	font-family:Mermaid;
+	text-align: left;
+	font-size: 6em;
+	color: #0886C4;
+	text-align: left;
+	margin-left: 100px;
 }
 
 p{
@@ -198,4 +207,12 @@ article{
 	margin: 13px;
 	width: 22%;
 	float: left;
+}
+
+footer{
+	text-align: center;
+	font-family:Pinkerston;
+	color: #AA853B;
+	padding-top: 20 px;
+	padding-bottom: 20px;
 }
