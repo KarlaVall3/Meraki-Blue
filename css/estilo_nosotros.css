@@ -69,11 +69,124 @@ div>ul>li>ul>li{
 }
 
 /*FIN DE BARRA DE MENU*/
-
+h1{
+	font-family: Mermaid;
+	font-size: 2em;
+	color: #F9F3B7;
+	margin: 26px;
+}
 /*inicio footer*/
 
 footer{
 	text-align: center;
 	font-family:Pinkerston;
 	color: #AA853B;
+}
+
+h2{
+	font-family:Mermaid;
+	font-size: 5.7em;
+	color: #966C23;
+	text-align: center;
+	margin-top: 0px auto;
+}
+
+
+h3{ 
+	font-family:Mermaid;
+	font-size: 2.5em;
+	color: #0886C4;
+	margin-top: -2px;
+	margin-bottom: 0.1px;
+	position: relative;
+	
+}
+
+p1{ 
+	font-family:Pinkerston;
+	color: #0886C4;
+	font-size: 1.3em;
+	text-align: left;
+
+}
+
+
+table {
+	background-color: #BFCBE5;
+  border-radius: 15px 15px 5px 5px;
+	margin-left: 70px;
+	margin-right: -45px;
+	text-align: left;
+	margin-top: -12px;
+	padding: 3px;
+	padding-left: 1px;
+	position: unset;
+	
+}
+
+td{
+	position: static;
+	padding: 1px;
+	padding-left: 4px;
+	border-radius: 30px;
+	background-color: #BFCBE5;
+}
+
+#collares {
+	padding-left: 981px;
+	margin-top: -221px;
+	overflow: hidden;
+	display: inline-table;
+	margin-bottom: -456px;
+	position: unset;
+
+}
+
+#collares img{
+	width: 239px;
+	height: 240px;
+	border-radius: 30px;
+	margin-left: 199px;
+
+
+}
+
+#pt2 table {
+	background-color: #BFCBE5;
+    border-radius: 15px 15px 5px 5px;
+	margin-left: 271px;
+	margin-right: -45px;
+	text-align: left;
+	margin-top: -0.1px;
+	padding: 26px;
+	padding-left: 56px;
+
+
+}
+
+p2{
+	font-family:Pinkerston;
+	color: #0886C4;
+	font-size: 1.3em;
+	text-align: left;
+
+}
+
+#sol {
+	
+	margin-top: -219px;
+	overflow: hidden;
+	display: block;
+	margin-bottom: -25px;
+	position:absolute;
+	margin-left: 87px;
+
+
+
+}
+
+#sol img{
+	width: 239px;
+	height: 240px;
+	border-radius: 30px;
 }
