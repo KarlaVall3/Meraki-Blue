@@ -6,35 +6,68 @@
     <link rel="stylesheet" href="css/estilo_contactanos.css">
 </head>
 <body>
-    <main>
-        <header>
-            <div id="barra_menu">
-                <h1>Meraki & Blue</h1>
-                <ul class="menu">
-                    <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/index.html">Home</a></li>
-                    <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/productos.html">Productos</a>
-                        <ul>
-                            <li><a href="#">Collares</a></li>
-                            <li><a href="#">Accesorios</a></li>
-                            <li><a href="#">Anillos</a></li>
-                            <li><a href="#">Productos de temporada</a></li>
-                            <li><a href="#">Aritos</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/nosotros.html">Nosotros</a></li>
-                    <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/contactanos.html">Contáctanos</a></li>
-                </ul>
-            </div>
-        </header>
+    <header>
+        <div id="barra_menu">
+            <h1>Meraki & Blue</h1>
+            <ul class="menu">
+                <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/index.html">Home</a></li>
+                <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/productos.html">Productos</a>
+                    <ul>
+                        <li><a href="#">Collares</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Anillos</a></li>
+                        <li><a href="#">Productos de temporada</a></li>
+                        <li><a href="#">Aritos</a></li>
+                    </ul>
+                </li>
+                <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/nosotros.html">Nosotros</a></li>
+                <li><a href="C:/Users/karly/Documents/GitHub/Meraki-Blue/contactanos.html">Contáctanos</a></li>
+            </ul>
+        </div>
+    </header>
         <h2>Contáctanos</h2>
         <h3>¡Gracias por visitar nuestra página!</h3>
-    <section id="recordatorio">
+    <div id="medio">
+    <section id="izquierda">
         <h4>Recuerda que:</h4>
-        <p>Para estar enterad@ de todas nuestras nuevas tendencias en productos es necesario que estés en contacto con nosotros.
+        <p>Para estar enterad@ de todas nuestras nuevas tendencias en productos es necesario que estés en contacto con nosotros.<br>
         ¡Escribenos!</p>
     </section>
-</main>
+    <section id="derecha">
+        <h1>¡Hablemos!</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </div>
+    </div>
 <footer>
+    <table id="redes">
+            <tr>
+                <td><img src="Tick-Tock.png">@Meraki&Blue</td>
+                <td><img src="Instagramm.png">@MerakiandBlue</td>
+            </tr>
+        </table>
     <p>© 2023 por Meraki & Blue.</p>
 </footer>
 </body>

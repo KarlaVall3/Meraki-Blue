@@ -112,7 +112,7 @@ td{
 }
 
 #p_banner{
-	font-family:Pinkerston;
+	font-family:LaFogle;
 	color: #0886C4;
 	font-size: 1.8em;
 	text-align: left;
@@ -145,7 +145,7 @@ h3{
 
 h4{
 	text-align: center;
-	font-family:Pinkerston;
+	font-family:LaFogle;
 	color: #AA853B;
 	font-size: 1em;
 }
@@ -161,7 +161,7 @@ h5{
 
 p{
 	text-align: center;
-	font-family:Pinkerston;
+	font-family:LaFogle;
 	color: #AA853B;
 	font-size: 1em;
 }
@@ -210,7 +210,7 @@ article{
 
 footer{
 	text-align: center;
-	font-family:Pinkerston;
+	font-family:LaFogle;
 	color: #AA853B;
 	padding-top: 20 px;
 	padding-bottom: 20px;
