@@ -68,7 +68,75 @@ div>ul>li>ul>li{
 	background-color: #D6A941;
 }
 
+h1{
+	font-family:Mermaid;
+	font-size: 2em;
+	color: #F9F3B7;
+	margin: 26px;
+}
+
 /*FIN DE BARRA DE MENU*/
+
+div #banner_productos{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	block-size: 100%;
+}
+
+
+h2{
+	text-align: left;
+	font-family:Mermaid;
+	color: #AA853B;
+	font-size: 4em;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	background-color: transparent;
+}
+
+h3{
+	text-align: center;
+	font-family:Molex Shoora;
+	color: #AA853B;
+	font-size: 2.5em;
+}
+
+#portada img{
+	width: 1300px;
+	height: 519px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+}
+
+section{
+	margin: 0 auto;
+	width: 70%;
+	overflow: hidden;
+	position: relative;
+}
+
+section article{
+	font-size: 0.9rem;
+	height: 340px;
+	padding: 1%;
+	box-sizing: border-box;
+}
+
+section article img{
+	height: 180px;
+	max-width: 80%;
+	margin: 3px auto;
+	display: block;
+	border-radius: 12px;
+}
+
+article{
+	margin: 13px;
+	width: 22%;
+	float: left;
+}
 
 /*inicio footer*/
 
@@ -76,4 +144,6 @@ footer{
 	text-align: center;
 	font-family:Pinkerston;
 	color: #AA853B;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }

@@ -178,15 +178,14 @@ p{
 
 a, a:hover{
 	color: #F9F3B7;
-
 }
+
 section{
 	margin: 0 auto;
 	width: 70%;
 	overflow: hidden;
 	position: relative;
-
-	}
+}
 
 section article{
 	font-size: 0.9rem;
