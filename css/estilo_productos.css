@@ -68,95 +68,49 @@ div>ul>li>ul>li{
 	background-color: #D6A941;
 }
 
-/*FIN DE BARRA DE MENU*/
-
 h1{
-	font-family: Mermaid;
+	font-family:Mermaid;
 	font-size: 2em;
 	color: #F9F3B7;
 	margin: 26px;
 }
-/*inicio footer*/
 
-#img_grande{
-	padding-left: 896px;
-	margin-top: -371px;
-	overflow: hidden;
-	display: block;
-	margin-bottom: -6px;
-    position: unset;
-}
+/*FIN DE BARRA DE MENU*/
 
-#img_grande img{
-	width: 627px;
-	height: 480px;
-	border-radius: 260px 0px 0px 260px;
-	position: unset;
-}
-
-table{
-	margin-top: 0px auto;
-	width: 45px;
-	background-color: ;
-	position: unset;
-	background-color: #BFCBE5;
-	margin-left: 0px;
-}
-
-td{
-	text-align: left;
-	padding-left: 1px;	
-	border-radius: 15px 50px 30px 5px;
-	background-color: #BFCBE5;
-	margin-bottom: -2px;
-}
-
-#p_banner{
-	font-family:LaFogle;
-	color: #0886C4;
-	font-size: 1.8em;
-	text-align: left;
-	margin-left: 100px;
-	border-top-width: 10px;
-  border-right-width: 10px;
-  border-bottom-width: 10px;
-  border-left-width: 10px;
-}
-
-#descripcion_banner{
-	width: 55%;
+#banner_productos{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	block-size: 100%;
+	position: relative;
+	z-index: -1;
 }
 
 h2{
-	font-family:Mermaid;
-	font-size: 4em;
-	color: #0886C4;
 	text-align: left;
-	margin-left: 100px;
+	font-family:Mermaid;
+	color: #AA853B;
+	font-size: 6em;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+}
+
+#banner_productos img{
+	width: 100%;
+	height: 519px;
+	padding: 0px;
+	margin: 0px;
 }
 
 h3{
+	text-align: center;
 	font-family:Molex Shoora;
 	color: #AA853B;
 	font-size: 2.5em;
-	text-align: center;
-	margin-top: 16px;
-}
-
-h4{
-	text-align: center;
-	font-family:LaFogle;
-	color: #AA853B;
-	font-size: 1em;
-}
-
-h5{
-	font-family:Mermaid;
-	text-align: left;
-	font-size: 6em;
-	color: #0886C4;
-	text-align: left;
-	margin-left: 100px;
+	padding: 13px;
 }
 
 p{
@@ -166,23 +120,9 @@ p{
 	font-size: 1em;
 }
 
-.mas{
-	text-align: center;
-	background-color:  #D6A941;
-	height: 21px;
-	opacity: 73%;
-	border-radius: 8px;
-	font-family:Mermaid;
-	color: #FFF;
-}
-
-a, a:hover{
-	color: #F9F3B7;
-}
-
 section{
 	margin: 0 auto;
-	width: 70%;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
@@ -204,14 +144,16 @@ section article img{
 
 article{
 	margin: 13px;
-	width: 22%;
+	width: 18%;
 	float: left;
 }
+
+/*inicio footer*/
 
 footer{
 	text-align: center;
 	font-family:LaFogle;
 	color: #AA853B;
-	padding-top: 0px;
-  padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
