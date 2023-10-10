@@ -136,7 +136,7 @@ p{
 	width: 45%;
 	background-color: #BFCBE5;
 	border-radius: 10%;
-	padding: 10px;
+	padding: 25px;
 }
 
 #derecha h1 {
@@ -194,10 +194,14 @@ button:hover {
 
 #redes {
     text-align: center;
+    margin-left: auto;
+    padding-right: 90px;
 }
 
 #redes td {
     padding: 10px;
+    font-family:LaFogle;
+		color: #0886C4;
 }
 
 #redes img {
@@ -209,8 +213,8 @@ button:hover {
 
 footer{
 	text-align: center;
-	font-family:Pinkerston;
+	font-family:LaFogle;
 	color: #AA853B;
-	padding-top: 20 px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+  padding-bottom: 50px;
 }

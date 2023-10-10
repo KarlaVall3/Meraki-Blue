@@ -83,6 +83,7 @@ h1{
 	margin: 0px;
 	block-size: 100%;
 	position: relative;
+	z-index: -1;
 }
 
 h2{

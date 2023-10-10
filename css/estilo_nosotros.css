@@ -93,23 +93,6 @@ h3{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
-	
-}
-
-#texto_primercuadro{ 
-	width: 70%;
-	padding: 10px;
-	padding-left: 30px;
-	padding-top: 0px;
-	font-family:LaFogle;
-	color: #0886C4;
-	font-size: 1.3em;
-	text-align: justify;
-}
-
-table, #pt2 table{
-	background-color: #BFCBE5;
-  border-radius: 30px 30px 30px 30px;
 }
 
 table {
@@ -123,38 +106,9 @@ table {
 	width: 90%;
 }
 
-td{
-	position: static;
-	padding: 1px;
-	padding-left: 4px;
-	border-radius: 30px;
+table, #pt2 table{
 	background-color: #BFCBE5;
-	height: 15px;
-}
-
-tr{
-	position: static;
-	padding: 1px;
-	padding-left: 4px;
-	border-radius: 30px;
-	background-color: #BFCBE5;
-	height: 20px;
-}
-
-#collares{
-	padding-left: 981px;
-	margin-top: -290px;
-	overflow: hidden;
-	display: inline-table;
-	margin-bottom: -456px;
-	position: unset;
-}
-
-#collares img{
-	width: 250px;
-	height: 300px;
-	border-radius: 30px;
-	margin-left: 193px;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #pt2 table {
@@ -165,10 +119,52 @@ tr{
 	padding-left: 25px;
 }
 
+td{
+	position: static;
+	padding-left: 4px;
+	border-radius: 30px;
+	background-color: #BFCBE5;
+	height: 15px;
+}
+
+tr{
+	position: static;
+	padding-left: 4px;
+	border-radius: 30px;
+	background-color: #BFCBE5;
+	height: 20px;
+}
+
+#texto_primercuadro{ 
+	width: 70%;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 0px;
+	font-family:LaFogle;
+	color: #0886C4;
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+#collares{
+	padding-left: 981px;
+	margin-top: -300px;
+	overflow: hidden;
+	display: inline-table;
+	margin-bottom: -456px;
+	position: unset;
+}
+
+#collares img{
+	width: 250px;
+	border-radius: 30px;
+	margin-left: 140px;
+}
+
 #texto_segundocuadro{ 
 	width: 70%;
 	padding: 30px;
-	padding-left: 280px;
+	padding-left: 290px;
 	padding-top: 0px;
 	font-family:LaFogle;
 	color: #0886C4;
@@ -186,7 +182,7 @@ tr{
 }
 
 #sol img{
-	width: 239px;
+	width: 220px;
 	height: 240px;
 	border-radius: 30px;
 }
@@ -197,6 +193,6 @@ footer{
 	text-align: center;
 	font-family:LaFogle;
 	color: #AA853B;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
