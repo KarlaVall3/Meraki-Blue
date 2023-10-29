@@ -1,0 +1,48 @@
+*{
+	background-color: #FFF;
+	font-family: LaFogle;
+
+}
+
+h1{
+	padding-top: 40px;
+	color: #D6A941;
+	font-size: 35px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	font-family:LaFogle;
+	color: #AA853B;
+	font-size: 1em;
+	background-color: transparent;
+}
+
+.plan {
+	display: flex;
+	width: 250px;
+	padding: 44px;
+	background-color: #F9F3B7;
+	margin: 30px 15px;
+	border: transparent;
+	border-radius: 10px;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+img{
+	background-color: transparent;
+}
+
+footer {
+	text-align: center;
+	color: #D6A941;
+	width: 100%;
+}
+
+footer p{
+	color: #D6A941;
+}
