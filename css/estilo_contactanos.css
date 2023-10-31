@@ -231,3 +231,9 @@ footer h8{
 	color: #D6A941;
 	font-size: 1.2em;
 }
+
+.form-group img{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 3px;
+}
