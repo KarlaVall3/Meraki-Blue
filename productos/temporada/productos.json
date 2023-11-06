@@ -4,12 +4,12 @@
     {
       "nombre": "Cajas Musicales",
       "precio": "15.00",
-      "imagen": "/imagenes/jukebox-season.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/jukebox-season.jpeg"
     },
     {
       "nombre": "Accesorios de Halloween",
       "precio": "3.50",
-      "imagen": "/imagenes/p_temporada.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/p_temporada.jpeg"
     }
   ]
 }

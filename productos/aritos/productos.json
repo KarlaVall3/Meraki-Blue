@@ -4,17 +4,17 @@
     {
       "nombre": "Aretes Bloom",
       "precio": "3.50",
-      "imagen": "/imagenes/aretes.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/aretes.jpeg"
     },
     {
       "nombre": "Aretes rosados",
       "precio": "5.00",
-      "imagen": "/imagenes/earrings.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/earrings.jpeg"
     },
     {
       "nombre": "Argollas en forma de nube",
       "precio": "4.50",
-      "imagen": "/imagenes/p_personalizado.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/p_personalizado.jpeg"
     }
   ]
 }

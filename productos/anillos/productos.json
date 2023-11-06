@@ -4,12 +4,12 @@
     {
       "nombre": "Anillo Dorado con piedras",
       "precio": "4.00",
-      "imagen": "/imagenes/p_anillos.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/p_anillos.jpeg"
     },
     {
       "nombre": "Anillo de Piedras Rojas",
       "precio": "3.5",
-      "imagen": "/imagenes/red-ring.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/red-ring.jpeg"
     }
   ]
 }
