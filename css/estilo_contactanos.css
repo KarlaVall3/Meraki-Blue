@@ -209,12 +209,31 @@ button:hover {
     margin-right: 10px;
 }
 
-/*inicio footer*/
+/*FOOTER*/
 
 footer{
 	text-align: center;
+	background-color: #F9F3B7;
+	padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p{
+	text-align: center;
 	font-family:LaFogle;
-	color: #AA853B;
-	padding-top: 30px;
-  padding-bottom: 50px;
+	color: #D6A941;
+	font-size: 0.8em;
+}
+
+footer h8{
+	text-align: center;
+	font-family: Mermaid;
+	color: #D6A941;
+	font-size: 1.2em;
+}
+
+.form-group img{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 3px;
 }
