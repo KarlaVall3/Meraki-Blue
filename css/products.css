@@ -1,0 +1,51 @@
+#banner {
+  background-image: url(../imagenes/portada_productos_copia.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner > img {
+  display: none;
+}
+
+#banner > div {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#title {
+  font-family: Mermaid;
+  color: #f9f3b7;
+  font-size: 3em;
+  backdrop-filter: blur(15px);
+}
+
+.card-body {
+  height: 200px;
+}
+
+@media (min-width: 769px) {
+  #banner {
+    background: none;
+    position: relative;
+  }
+  #banner > img {
+    display: block;
+    max-height: 280px;
+  }
+  #banner > div {
+    padding: 0;
+    text-align: left;
+  }
+
+  #title {
+    font-family: Mermaid;
+    color: #f9f3b7;
+    font-size: 4em;
+    backdrop-filter: blur(0);
+    position: absolute;
+    bottom: 0;
+    color: #aa853b;
+  }
+}

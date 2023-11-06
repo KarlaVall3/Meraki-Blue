@@ -1,0 +1,15 @@
+{
+  "titulo": "Productos de Temporada",
+  "productos": [
+    {
+      "nombre": "Cajas Musicales",
+      "precio": "15.00",
+      "imagen": "/imagenes/jukebox-season.jpeg"
+    },
+    {
+      "nombre": "Accesorios de Halloween",
+      "precio": "3.50",
+      "imagen": "/imagenes/p_temporada.jpeg"
+    }
+  ]
+}

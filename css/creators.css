@@ -1,0 +1,21 @@
+h1 {
+  color: #d6a941;
+  font-size: 35px;
+}
+
+* {
+  font-family: LaFogle;
+}
+
+.card {
+  background-color: #f9f3b7;
+}
+
+.img-fluid {
+  max-height: 300px;
+}
+
+.card-body {
+  color: #d6a941;
+  min-height: 150px;
+}

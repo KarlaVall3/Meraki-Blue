@@ -1,0 +1,77 @@
+#header {
+  text-align: center;
+  font-family: Mermaid;
+}
+
+#header > h1 {
+  color: #aa853b;
+  font-size: 2.5em;
+}
+
+#header > p {
+  color: #d6a941;
+  font-size: 1.5em;
+}
+
+#reminder > h3 {
+  font-family: Mermaid;
+  color: #aa853b;
+  font-size: 1.5em;
+}
+
+#reminder > p {
+  font-family: LaFogle;
+  color: #d6a941;
+  font-size: 1em;
+}
+
+#link-here {
+  font-family: LaFogle;
+  color: #aa853b;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#link-here:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: #bfcbe5;
+}
+
+form > legend {
+  color: #0886c4;
+  font-family: Mermaid;
+  font-size: 1.5em;
+}
+
+label {
+  color: #0886c4;
+  font-family: LaFogle;
+}
+
+.btn {
+  background-color: #0886c4;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0056b3;
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #0056b3;
+}
+
+.btn:focus {
+  color: #fff;
+  background-color: #0056b3;
+}
+
+.social {
+  font-family: LaFogle;
+  font-size: 1em;
+}

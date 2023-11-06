@@ -1,0 +1,20 @@
+{
+  "titulo": "Aritos",
+  "productos": [
+    {
+      "nombre": "Aretes Bloom",
+      "precio": "3.50",
+      "imagen": "/imagenes/aretes.jpeg"
+    },
+    {
+      "nombre": "Aretes rosados",
+      "precio": "5.00",
+      "imagen": "/imagenes/earrings.jpeg"
+    },
+    {
+      "nombre": "Argollas en forma de nube",
+      "precio": "4.50",
+      "imagen": "/imagenes/p_personalizado.jpeg"
+    }
+  ]
+}

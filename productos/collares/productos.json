@@ -1,0 +1,115 @@
+{
+  "titulo": "Collares",
+  "productos": [
+    {
+      "nombre": "Edición Anastasia",
+      "precio": "7.50",
+      "imagen": "/imagenes/banner.jpeg"
+    },
+    {
+      "nombre": "Collar de Piedras de Cuarzo",
+      "precio": "7.50",
+      "imagen": "/imagenes/bottle-collar.jpeg"
+    },
+    {
+      "nombre": "Collares Maritimos",
+      "precio": "7.00",
+      "imagen": "/imagenes/collares.jpeg"
+    },
+    {
+      "nombre": "Collar de piedras Amarillas y Rosadas",
+      "precio": "8.50",
+      "imagen": "/imagenes/energy-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Corazón Plateado",
+      "precio": "7.00",
+      "imagen": "/imagenes/heart-collar-2.jpeg"
+    },
+    {
+      "nombre": "Collar de Corazón con Piedras",
+      "precio": "8.50",
+      "imagen": "/imagenes/heart-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Mariposa",
+      "precio": "9.00",
+      "imagen": "/imagenes/jolyne-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de piedra con forma de champiñon",
+      "precio": "8.00",
+      "imagen": "/imagenes/mushroom-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Ying y Yang con forma de corazón",
+      "precio": "7.00",
+      "imagen": "/imagenes/p_collares.jpeg"
+    },
+    {
+      "nombre": "Collar de Perlas y Piedras",
+      "precio": "8.00",
+      "imagen": "/imagenes/pearl-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Perlas y Piedras Rosas",
+      "precio": "8.50",
+      "imagen": "/imagenes/perlas.jpeg"
+    },
+    {
+      "nombre": "Collar Delicado de Perlas",
+      "precio": "8.50",
+      "imagen": "/imagenes/quartz-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Cuarzo Blanco",
+      "precio": "8.50",
+      "imagen": "/imagenes/quartz-white-collar.jpeg"
+    },
+    {
+      "nombre": "Relicarios",
+      "precio": "7.00",
+      "imagen": "/imagenes/relicarios.jpeg"
+    },
+    {
+      "nombre": "Collar de Perlas con colgante de Rosa",
+      "precio": "7.00",
+      "imagen": "/imagenes/rose-pearl-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Cuarzo Rosa",
+      "precio": "8.50",
+      "imagen": "/imagenes/rose-quartz-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Piedras Rosas",
+      "precio": "8.00",
+      "imagen": "/imagenes/rose-stone-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Perlas de Colores",
+      "precio": "7.50",
+      "imagen": "/imagenes/sakura-collar.jpeg"
+    },
+    {
+      "nombre": "Collar con pendiente del Sol",
+      "precio": "8.00",
+      "imagen": "/imagenes/sol.jpeg"
+    },
+    {
+      "nombre": "Collar de Fantasia",
+      "precio": "7.00",
+      "imagen": "/imagenes/star-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Piedras",
+      "precio": "7.50",
+      "imagen": "/imagenes/stones-collar.jpeg"
+    },
+    {
+      "nombre": "Collar de Fresa",
+      "precio": "8.00",
+      "imagen": "/imagenes/strawberry-collar.jpeg"
+    }
+  ]
+}

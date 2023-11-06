@@ -1,0 +1,40 @@
+h1 {
+  font-family: Mermaid;
+  font-size: 3.5em;
+  color: #aa853b;
+}
+
+.container > img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.container > .row {
+  background-color: #bfcbe5;
+  color: #0886c4;
+}
+
+.title {
+  font-family: Mermaid;
+  color: #fff;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    position: relative;
+  }
+  .container > #img-rigth {
+    position: absolute;
+    right: 0;
+    bottom: -5%;
+    max-width: 30%;
+    max-height: 110%;
+  }
+  .container > #img-left {
+    position: absolute;
+    left: 0;
+    bottom: -5%;
+    max-width: 30%;
+    max-height: 110%;
+  }
+}

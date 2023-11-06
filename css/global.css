@@ -1,0 +1,118 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+  font-family: Mermaid;
+  background-color: #ceba8a;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: #f9f3b7;
+}
+
+.navbar-brand:hover {
+  color: #f9f3b7;
+}
+
+.navbar-nav > li > a {
+  font-size: 1.4em;
+  font-family: Mermaid;
+  color: #f9f3b7;
+}
+
+.navbar-nav > li > a:hover {
+  color: #f9f3b7;
+  background-color: #d6a941;
+}
+
+.navbar-nav > li > a:focus {
+  color: #f9f3b7;
+  background-color: #d6a941;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #f9f3b7;
+}
+
+.dropdown-menu {
+  background-color: #d6a941;
+}
+
+.dropdown-menu > li > a {
+  color: #f9f3b7;
+}
+
+/* CARDS */
+
+.card-title {
+  font-family: Molex Shoora;
+}
+
+.card {
+  font-family: LaFogle;
+}
+
+.btn {
+  background-color: #ceba8a;
+  font-family: LaFogle;
+  color: #f9f3b7;
+}
+
+.btn:hover {
+  color: #f9f3b7;
+  background-color: #d6a941;
+}
+
+.btn:active {
+  color: #f9f3b7;
+  background-color: #d6a941;
+}
+
+.btn:focus {
+  color: #f9f3b7;
+  background-color: #d6a941;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: auto;
+  background-color: #f9f3b7;
+}
+
+footer > div > p {
+  font-family: LaFogle;
+  color: #d6a941;
+  font-size: 1.2em;
+}
+
+footer > div > p > a {
+  font-family: LaFogle;
+  color: #d6a941;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer > div > p > a:hover {
+  text-decoration: underline;
+}
+
+footer > div > section > p {
+  font-family: Mermaid;
+  color: #d6a941;
+  font-size: 0.8em;
+}
+
+#copyright {
+  background-color: #d6a941;
+}
+
+#copyright > p {
+  color: #f9f3b7;
+}
