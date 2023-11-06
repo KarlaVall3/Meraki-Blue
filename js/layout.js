@@ -2,7 +2,7 @@
 var navBar = document.createElement("nav");
 navBar.classList.add("navbar", "navbar-expand-lg");
 navBar.innerHTML = `<div class="container-fluid">
-<a class="navbar-brand" href="/">Meraki & Blue</a>
+<a class="navbar-brand" href="/Meraki-Blue/index.html">Meraki & Blue</a>
 <button
   class="navbar-toggler"
   type="button"
