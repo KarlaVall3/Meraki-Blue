@@ -4,12 +4,12 @@
     {
       "nombre": "Dijes de Piedras Preciosas",
       "precio": "3.50",
-      "imagen": "/imagenes/dijes.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/dijes.jpeg"
     },
     {
       "nombre": "Accesorios para pelo",
       "precio": "3.50",
-      "imagen": "/imagenes/p_accesorios.jpeg"
+      "imagen": "/Meraki-Blue/imagenes/p_accesorios.jpeg"
     }
   ]
 }

@@ -17,14 +17,14 @@ navBar.innerHTML = `<div class="container-fluid">
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav d-flex ms-auto mb-2 mb-lg-0">
     <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="/index.html"
+      <a class="nav-link" aria-current="page" href="/Meraki-Blue/index.html"
         >Home</a
       >
     </li>
     <li class="nav-item dropdown">
       <a
         class="nav-link dropdown-toggle"
-        href="/productos"
+        href="/Meraki-Blue/productos"
         role="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"
@@ -33,24 +33,24 @@ navBar.innerHTML = `<div class="container-fluid">
       </a>
       <ul class="dropdown-menu">
         <li>
-          <a class="dropdown-item" href="/productos"
+          <a class="dropdown-item" href="/Meraki-Blue/productos"
             >Todos los Productos</a
           >
         </li>
-        <li><a class="dropdown-item" href="/productos/collares">Collares</a></li>
-        <li><a class="dropdown-item" href="/productos/accesorios">Accesorios</a></li>
-        <li><a class="dropdown-item" href="/productos/anillos">Anillos</a></li>
+        <li><a class="dropdown-item" href="/Meraki-Blue/productos/collares">Collares</a></li>
+        <li><a class="dropdown-item" href="/Meraki-Blue/productos/accesorios">Accesorios</a></li>
+        <li><a class="dropdown-item" href="/Meraki-Blue/productos/anillos">Anillos</a></li>
         <li>
-          <a class="dropdown-item" href="/productos/temporada">Productos de temporada</a>
+          <a class="dropdown-item" href="/Meraki-Blue/productos/temporada">Productos de temporada</a>
         </li>
-        <li><a class="dropdown-item" href="/productos/aritos">Aritos</a></li>
+        <li><a class="dropdown-item" href="/Meraki-Blue/productos/aritos">Aritos</a></li>
       </ul>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/nosotros">Nosotros</a>
+      <a class="nav-link" href="/Meraki-Blue/nosotros">Nosotros</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/contactanos">Contáctanos</a>
+      <a class="nav-link" href="/Meraki-Blue/contactanos">Contáctanos</a>
     </li>
   </ul>
 </div>
